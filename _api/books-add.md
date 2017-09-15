@@ -1,5 +1,5 @@
 ---
-title: projects
+title: /projects
 position: 1.1
 type: post
 description: Create Book
