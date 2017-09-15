@@ -22,24 +22,21 @@ right_code: |
   ~~~
   {: title="Error" }
 ---
-title
-: The title for the book
 
-score
-: The book's score between 0 and 5
+
+<dl><dt>title</dt><dd>The title for the book [update by mo]</dd><dt>score</dt><dd>The book's score between 0 and 5</dd></dl>
 
 The book will automatically be added to your reading list
-{: .success }
+{: .success}
 
 Adds a book to your collection.
 
-~~~ javascript
+```javascript
 $.post("http://api.myapp.com/books/", {
   "token": "YOUR_APP_KEY",
-  "title": "The Book Thief",
+  "title": "The Book Thief [update by mo]",
   "score": 4.3
 }, function(data) {
   alert(data);
 });
-~~~
-{: title="jQuery" }
+```
