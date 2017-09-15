@@ -3,7 +3,7 @@ title: /books
 position: 1.1
 type: post
 description: Create Book
-right_code: >-
+right_code: |
   ~~~ json{  "id": 3,  "title": "The Book Thief",  "score": 4.3,  "dateAdded":
   "5/1/2015"}~~~{: title="Response" }~~~ json{  "error": true,  "message":
   "Invalid score"}~~~{: title="Error" }
