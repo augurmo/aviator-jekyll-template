@@ -1,8 +1,8 @@
 ---
 title: /books/:id
 position: 1.5
-type: delete
-description: Deletes a book
+type: get
+description: Deletes a book中午中午zhongwen中午中午中文中午中午中文zho
 right_code: |
   ~~~ json
   {
@@ -15,7 +15,7 @@ right_code: |
   ~~~ json
   {
     "error": true,
-    "message": "Book doesn't exist"
+    "message": "Book d中午中午中文中文hhoesn't exist"
   }
   ~~~
   {: title="Error" }
